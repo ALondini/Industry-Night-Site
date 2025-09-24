@@ -21,15 +21,14 @@ h1, h2, h3, h4, p {
 }
 
 a {
-   text-decoration: none;
+    text-decoration: none;
 }
 
 .hidden {
     display: none;
 }
 
-
- /* Box Model */
+/* Box Model */
 
  .box-model {
    background-color: #646469;
@@ -37,16 +36,38 @@ a {
    margin: 0;
  }
 
+/* Text Formatting */
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 12px;
+}
+
 /* Header */
 
 .head {
     background: #E2231A;
 }
 
-/* Visual Section / Event Details Section */
+/* Visual Section */
 
-.visuals {
-    background-color: #646469;
+.hero-section {
+    background-color: white;
+    padding: 5em;
+}
+
+/* Event Details Section */
+
+.event-details-section {
+    background-color: #B3272D;
+    color: white;
 }
 
 .event-details-list ul {
@@ -56,12 +77,17 @@ a {
 
 .event-details-list ul li {
     list-style-type: none;
-    background-color: white;
+    background-color: #B3272D;
     margin: 1em;
     padding: 1em;
 }
 
 /* Student Groups Section */
+
+.student-groups-section {
+    background-color: white;
+    color: #B3272D;
+}
 
 .gallery-button {
     background-color: white;
@@ -74,10 +100,21 @@ a {
 
 .student-groups-gallery ul li {
     list-style: none;
-    background-color: #B3272D;
+    background-color: white;
     margin: 1em;
     padding: 1em;
+    font-size: 32px;
 }
+
+.student-groups-gallery ul li a {
+    font-size: 18px;
+}
+
+.view-more {
+    background-color: #B3272D;
+    color: white;
+}
+
 
 /* Footer */
 
