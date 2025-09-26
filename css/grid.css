@@ -57,6 +57,11 @@ ___________________________________________ */
    .logo { grid-column: 2 / span 1;}
    nav { grid-column: 3 / span 1;}
 
+   img, video {
+      max-width: 100%;
+      height: auto;
+   }
+
    .one-item, .two-items, .three-items, .four-items {
       display: grid;
       justify-items: stretch;
