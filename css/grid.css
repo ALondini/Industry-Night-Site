@@ -95,7 +95,7 @@ ___________________________________________ */
          grid-template-columns: 1fr repeat(4, minmax(auto, 15.99em)) 1fr;
       }
 
-      .logo { grid-column: 1 / span 1; }
+      .logo { grid-column: 2 / span 1; }
       nav { grid-column: 2 / span 5; }
 
       .sm-one-item, 
@@ -143,7 +143,7 @@ ___________________________________________ */
          grid-template-columns: 1fr repeat(4, minmax(auto, 15.99em)) 1fr;
       }
       
-      .logo { grid-column: 1 / span 1; }
+      .logo { grid-column: 2 / span 1; }
       nav { grid-column: 2 / span 5; }
 
       .md-one-item, 
@@ -191,7 +191,7 @@ ___________________________________________ */
          grid-template-columns: 1fr repeat(4, minmax(auto, 30em)) 1fr;
       }
 
-      .logo { grid-column: 1 / span 1; }
+      .logo { grid-column: 2 / span 1; }
       nav { grid-column: 2 / span 5; }
 
       .lg-one-item, 
