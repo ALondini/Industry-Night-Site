@@ -13,6 +13,7 @@ body {
    margin: 0;
    padding: 0;
    font-size: 16px;
+   font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3, h4, p {
@@ -48,6 +49,15 @@ h3 {
 
 p {
     font-size: 12px;
+}
+
+/* Font Linking */
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* Header */
