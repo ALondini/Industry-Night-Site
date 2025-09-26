@@ -167,7 +167,7 @@ ___________________________________________ */
       .md-four-items { grid-template-columns: repeat(2, 1fr); }
       .md-five-items { grid-template-columns: repeat(2, 1fr); }
       .md-one-third { grid-template-columns: 1fr 3fr; }
-      .md-two-thirds { grid-template-columns: 3fr 1fr; }
+      .md-two-third { grid-template-columns: 3fr 1fr; }
       .md-half-right { grid-template-columns: 1fr 1fr 2fr; }
       .md-half-left { grid-template-columns: 2fr 1fr 1fr; }
 
