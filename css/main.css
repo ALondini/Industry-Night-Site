@@ -135,6 +135,33 @@ nav > .hamburger {
     display: block;
 }
 
+@media screen and (min-width: 64em) {
+    .hamburger {
+        display: none;
+    }
+
+  #hamburger-list {
+        transform: none;
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        height: auto;
+        background: transparent;
+        color: white;
+        padding: 0;
+        margin: 0;
+    }
+
+    #hamburger-list li {
+        padding: 0 1em;
+    }
+
+    #hamburger-list li a {
+        color: inherit;
+        text-decoration: none;
+    }
+}
+
 /* Visual Section */
 
 .hero-section {
