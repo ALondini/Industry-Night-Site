@@ -47,6 +47,10 @@ h3 {
     font-size: 18px;
 }
 
+h4 {
+    font-size: 16px;
+}
+
 p {
     font-size: 12px;
 }
@@ -160,6 +164,10 @@ p {
 .profs-section {
     background-color: #B3272D;
     color: white;
+}
+
+.profs-section ul li {
+    list-style-type: none;
 }
 
 /* Creators Section */
