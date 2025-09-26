@@ -115,10 +115,39 @@ p {
     color: white;
 }
 
+/* IDP Section */
+
+.IDP-section {
+    background-color: #B3272D;
+    color: white;
+}
+
+/* Video Section */
+.video-section {
+    background-color: white;
+    color: #B3272D;
+}
+
+/* Profs-Section */
+.profs-section {
+    background-color: #B3272D;
+    color: white;
+}
+
+/* Creators Section */
+.creators-section {
+    background-color: white;
+    color: #B3272D;
+}
+
+.creator-portfolio {
+    background-color: #E2231A;
+}
 
 /* Footer */
 
 .footer {
-    background-color: #E2231A;
+    background-color: #B3272D;
+    color: white;
 }
 
