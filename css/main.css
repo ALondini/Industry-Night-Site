@@ -381,6 +381,46 @@ input[type="range"]:focus::-moz-range-thumb{
     margin-top: 3em;
 }
 
+/* Portfolio.Html _________________________________________________________________________________________*/
+
+/* Portfolio Filters */
+
+.portfolio-filters {
+    background-color: white;
+    color: #B3272D;
+}
+
+.filter-buttons-container {
+    background-color: white;
+    margin: 1em;
+}
+
+.filter-button {
+    border: 0.1em solid #B3272D;
+    margin: 1em;
+    background-color: white;
+    color: #B3272D;
+    box-shadow: .5em .5em .5em #B3272D;
+}
+
+/* Studen Portfolios Section */
+
+.student-portfolios-section {
+    background-color: white;
+}
+
+.student-portfolios {
+    background-color: white;
+    color: #B3272D;
+    box-shadow: 0.25em 0.25em 0.25em #646469;
+    margin: 2em;
+}
+
+.student-portfolios a {
+    background-color: #B3272D;
+    color: white;
+}
+
 /* Footer */
 
 .footer {
